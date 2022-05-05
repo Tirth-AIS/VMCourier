@@ -1,0 +1,17 @@
+.banner-content h1 {
+    color: white;
+}
+
+.banner-content p {
+    color: white;
+}
+
+@media (max-width: 990px) {
+    .banner-content h1 {
+        color: #000024;
+    }
+    
+    .banner-content p {
+        color: #000024;
+    }
+}

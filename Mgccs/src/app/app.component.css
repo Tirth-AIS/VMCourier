@@ -1,0 +1,25 @@
+.header-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+i {
+    color: white;
+}
+
+span#line1{
+    color: white;
+}
+
+a#phnLink, a#emailLink{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
